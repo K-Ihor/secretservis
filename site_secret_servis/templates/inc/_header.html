@@ -1,0 +1,92 @@
+{% load static %}
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <div class="fl_left">
+      <ul class="nospace">
+        <li><a href="{% url 'home' %}"> <i class="fas fa-home fa-lg"></i></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+    </div>
+    <div class="fl_right">
+      <ul class="nospace">
+        <li><i class="fas fa-phone rgtspace-5"></i> +380 (482) 345 696</li>
+        <li><i class="fas fa-envelope rgtspace-5"></i> info@domain.com</li>
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <div id="logo" class="one_quarter first">
+      <h1><a href="index.html">Проектирование</a></h1>
+      <p><h2>монтаж|сервис</h2></p>
+    </div>
+    <div class="one_quarter"><strong><i class="fas fa-phone rgtspace-5"></i> Call Us:</strong> +38 (050) 390 7806</div>
+    <div class="one_quarter"><strong><i class="far fa-clock rgtspace-5"></i> Mon. - Sat.:</strong> 08.00am - 18.00pm</div>
+    <div class="one_quarter">
+      <form action="#" method="post">
+        <label>
+          <select>
+            <option value="" selected="selected" disabled="disabled">Language</option>
+            <option value="English">Default</option>
+            <option value="German">German</option>
+            <option value="Spanish">Spanish</option>
+            <option value="Spanish">French</option>
+          </select>
+        </label>
+      </form>
+    </div>
+    <!-- ################################################################################################ -->
+  </header>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <nav id="mainav" class="hoc clear">
+    <!-- ################################################################################################ -->
+    <ul class="clear">
+      <li class="active"><a href="{% url 'home' %}">Home</a></li>
+      <li><a class="drop" href="#">Pages</a>
+        <ul>
+          <li><a href="{% static 'pages/gallery.html' %}">Gallery</a></li>
+          <li><a href="{% static 'pages/full-width.html' %}">Full Width</a></li>
+          <li><a href="{% static 'pages/sidebar-left.html' %}">Sidebar Left</a></li>
+          <li><a href="{% static 'pages/sidebar-right.html' %}">Sidebar Right</a></li>
+          <li><a href="{% static 'pages/basic-grid.html' %}">Basic Grid</a></li>
+          <li><a href="{% static 'pages/font-icons.html' %}">Font Icons</a></li>
+        </ul>
+      </li>
+      <li><a class="drop" href="#">Dropdown</a>
+        <ul>
+          <li><a href="#">Level 2</a></li>
+          <li><a class="drop" href="#">Level 2 + Drop</a>
+            <ul>
+              <li><a href="#">Level 3</a></li>
+              <li><a href="#">Level 3</a></li>
+              <li><a href="#">Level 3</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Level 2</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Link Text</a></li>
+      <li><a href="#">Link Text</a></li>
+      <li><a href="#">Link Text</a></li>
+      <li><a href="#">Long Link Text</a></li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </nav>
+</div>
